@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
 		"paths": {
-			"my-package": ["./"]
+			"package": ["./"]
 		},
 		"moduleResolution": "node",
 		"module": "es2020",
