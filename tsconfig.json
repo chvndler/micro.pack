@@ -1,14 +1,17 @@
 {
 	"compilerOptions": {
-		"paths": {
-			"package": ["./"]
-		},
 		"moduleResolution": "node",
 		"module": "es2020",
 		"lib": ["es2020"],
 		"target": "es2020",
 		"declaration": true,
 		"typeRoots": ["node_modules/@types"],
-		"strict": true
-	}
+		"strict": true,
+		"baseUrl": ".",
+		"paths": {
+			"package": ["./"]
+		}
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
 }
