@@ -1,8 +1,42 @@
-.vscode
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+!.yarn/cache
 yarn.lock
-node_modules
 
-node_modules/*
+.DS_Store
+Icon
+
+# Swap the comments on the following lines if you don't wish to use zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+#.pnp.*
+
+.pnp.cjs
+.pnp.loader.mjs
 
 
+# vscode
+.vscode/*
+
+# deps
+node_modules/
+package-lock.json
+
+# outputs
+.turbo/*
+.next/*
+dist/*
+dist-ssr
+
+*.log
+*.local
+
+.env
+.cache
+server/dist
+public/dist
+storybook-static/
 
